@@ -19,7 +19,7 @@ target_file=$replrootpath/'triangle'
 
 
 # check if freeglut3-dev is installed on host
-# install it if one of the library files isnt missing
+# install it if one of the library files is missing
 # see output of >ldd triangle< from shell for more info
 if [ ! -f /home/runner/.apt/usr/lib/x86_64-linux-gnu/libglut.so.3 ]
 then
