@@ -1,4 +1,4 @@
-// https://cs.lmu.edu/~ray/notes/openglexamples/
+// source code fom https://cs.lmu.edu/~ray/notes/openglexamples/
 
 
 #include "./freeglut-3.2.1/include/GL/freeglut.h"
