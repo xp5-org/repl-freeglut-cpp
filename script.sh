@@ -9,6 +9,7 @@
 #######################################################################
 replrootpath=$PWD
 cdate=$(date +%Y%m%dT%H%M%s)
+export DISPLAY=:0.0
 backuptargetname=$target_file$cdate
 backupsourcename=$source_file$cdate
 examplebasepath=$replrootpath/freeglut-3.2.1/progs/demos/
